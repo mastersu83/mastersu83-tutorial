@@ -5,14 +5,14 @@ const Form = () => {
   let password = null;
   const onChange = (e) => {
     if (e.target.name === "email") {
-      email = e.target.value;
+      email = e.target.value.trim();
     } else {
-      password = e.target.value;
+      password = e.target.value.trim();
     }
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!email.trim() || !password.trim()) {
+    if (!email || !password) {
       alert("Заполните оба поля");
     } else {
       console.log({ email, password });
