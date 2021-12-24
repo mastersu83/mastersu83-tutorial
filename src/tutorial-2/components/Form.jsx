@@ -12,7 +12,7 @@ const Form = () => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!email || !password) {
+    if (!email.trim() || !password.trim()) {
       alert("Заполните оба поля");
     } else {
       console.log({ email, password });
