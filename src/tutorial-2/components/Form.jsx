@@ -16,6 +16,8 @@ const Form = () => {
       alert("Заполните оба поля");
     } else {
       console.log(email, password);
+      email = null;
+      password = null;
       e.target.reset();
     }
   };
