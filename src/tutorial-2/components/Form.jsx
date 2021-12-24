@@ -15,7 +15,7 @@ const Form = () => {
     if (!email || !password) {
       alert("Заполните оба поля");
     } else {
-      console.log(email, password);
+      console.log({ email, password });
       email = null;
       password = null;
       e.target.reset();
@@ -34,7 +34,7 @@ const Form = () => {
         <input
           name="password"
           onChange={onChange}
-          type="text"
+          type="password"
           placeholder="Пароль"
         />
         <button type="submit">Войти</button>
