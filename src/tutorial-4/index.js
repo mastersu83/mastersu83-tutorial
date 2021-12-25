@@ -5,20 +5,20 @@ const input = document.querySelector(".input");
 let tasksArray = [];
 
 const handleClickAdd = () => {
-  tasksArray.splice(0, 0, input.value);
+  tasksArray.push(input.value);
   render(tasksArray);
   input.value = "";
 };
 
-const handleClickRemove = (currentIndex) => {
-  tasksArray.splice(currentIndex, 1);
+const handleClickRemove = (index) => {
+  tasksArray.splice(index, 1);
   render(tasksArray);
 };
 
 const render = (newTasksArray) => {
   tasksList.innerHTML = "";
   if (newTasksArray) {
-    newTasksArray.map((task, index) => {
+    newTasksArray.forEach((task, index) => {
       let taskItem = document.createElement("li");
       let removeBtn = document.createElement("button");
       taskItem.className = "taskItem";
