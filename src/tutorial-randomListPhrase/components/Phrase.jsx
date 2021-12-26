@@ -6,7 +6,7 @@ const Phrase = (props) => {
       <h3>
         {props.adjectivesArr[props.mainState[props.index][0]]}{" "}
         {props.adjectivesArr[props.mainState[props.index][1]]}{" "}
-        {props.nounsArr[props.mainState[props.index][1]]}
+        {props.nounsArr[props.mainState[props.index][2]]}
       </h3>
     </div>
   );

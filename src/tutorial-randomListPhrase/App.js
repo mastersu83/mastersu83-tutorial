@@ -48,23 +48,20 @@ const App = () => {
   ];
   const [mainState, setMainState] = React.useState([]);
 
-  const randomNumber = (min = 100, max = 999) => {
+  const randomNumber = (min, max) => {
     return Math.round(Math.random() * (max - min) + min);
   };
 
   const genRandomNum = () => {
-    let num = randomNumber();
-    setMainState((prev) => [
-      ...prev,
-      Array.prototype.concat(
-        num
-          .toString(10)
-          .split("")
-          .map((int) => parseInt(int, 10))
-      ),
-    ]);
+    let numArray = [];
+    let num1 = randomNumber(0, adjectivesArr.length - 1);
+    let num2 = randomNumber(0, adjectivesArr.length - 1);
+    let num3 = randomNumber(0, nounsArr.length - 1);
+    numArray.push(num1, num2, num3);
+    console.log(numArray);
+    setMainState((prev) => [...prev, numArray]);
   };
-
+  console.log(adjectivesArr.length);
   const onClearMainState = () => {
     setMainState([]);
   };
