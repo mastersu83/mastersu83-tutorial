@@ -58,10 +58,9 @@ const App = () => {
     let num2 = randomNumber(0, adjectivesArr.length - 1);
     let num3 = randomNumber(0, nounsArr.length - 1);
     numArray.push(num1, num2, num3);
-    console.log(numArray);
     setMainState((prev) => [...prev, numArray]);
   };
-  console.log(adjectivesArr.length);
+
   const onClearMainState = () => {
     setMainState([]);
   };
