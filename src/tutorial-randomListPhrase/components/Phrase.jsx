@@ -1,13 +1,17 @@
 import React from "react";
 
 const Phrase = (props) => {
+  let num = props.mainState[props.index].split(" ");
+  let phrase =
+    props.adjectivesArr[num[0]] +
+    " " +
+    props.adjectivesArr[num[1]] +
+    " " +
+    props.nounsArr[num[2]];
+
   return (
     <div className="block">
-      <h3>
-        {props.adjectivesArr[props.mainState[props.index][0]]}{" "}
-        {props.adjectivesArr[props.mainState[props.index][1]]}{" "}
-        {props.nounsArr[props.mainState[props.index][2]]}
-      </h3>
+      <h3>{phrase}</h3>
     </div>
   );
 };

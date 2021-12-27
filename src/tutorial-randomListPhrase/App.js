@@ -1,51 +1,9 @@
 import React from "react";
 import Phrase from "./components/Phrase";
 import EmptyBlock from "./components/EmptyBlock";
+import { adjectivesArr, nounsArr } from "./state";
 
 const App = () => {
-  const adjectivesArr = [
-    "абсолютный",
-    "адский",
-    "азартный",
-    "активный",
-    "ангельский",
-    "астрономический",
-    "баснословный",
-    "безбожный",
-    "безбрежный",
-    "безвозвратный",
-    "безграничный",
-    "бездонный",
-    "бездушный",
-    "безжалостный",
-    "замечательно",
-    "замечательный",
-    "записной",
-    "запредельный",
-    "заядлый",
-    "звериный",
-    "зверский",
-    "зеленый",
-    "злой",
-    "злостный",
-    "значительный",
-    "неоспоримый",
-    "неотразимый",
-    "неоценимый",
-    "непередаваемый",
-  ];
-  const nounsArr = [
-    "лгун",
-    "день",
-    "конь",
-    "олень",
-    "человек",
-    "программист",
-    "ребёнок",
-    "конец",
-    "город",
-    "дурак",
-  ];
   const [mainState, setMainState] = React.useState([]);
 
   const randomNumber = (min, max) => {
@@ -53,12 +11,10 @@ const App = () => {
   };
 
   const genRandomNum = () => {
-    let numArray = [];
     let num1 = randomNumber(0, adjectivesArr.length - 1);
     let num2 = randomNumber(0, adjectivesArr.length - 1);
     let num3 = randomNumber(0, nounsArr.length - 1);
-    numArray.push(num1, num2, num3);
-    setMainState((prev) => [...prev, numArray]);
+    setMainState((prev) => [...prev, `${num1} ${num2} ${num3}`]);
   };
 
   const onClearMainState = () => {
