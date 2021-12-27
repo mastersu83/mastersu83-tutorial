@@ -27,9 +27,7 @@ const App = () => {
         {mainState &&
           mainState.map((p, index) => (
             <Phrase
-              mainState={mainState}
               key={index}
-              index={index}
               phrase={p}
               adjectivesArr={adjectivesArr}
               nounsArr={nounsArr}

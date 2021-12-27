@@ -1,7 +1,7 @@
 import React from "react";
 
 const Phrase = (props) => {
-  let num = props.mainState[props.index].split(" ");
+  let num = props.phrase.split(" ");
   let phrase =
     props.adjectivesArr[num[0]] +
     " " +
