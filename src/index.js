@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./tutorial-randomListPhrase/App.css";
-import App from "./tutorial-randomListPhrase/App";
+import "./index.css";
+import App from "./tutorial-5/App";
 
 ReactDOM.render(<App />, document.getElementById("root"));
