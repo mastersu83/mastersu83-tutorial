@@ -14,7 +14,10 @@ const App = () => {
     let num1 = randomNumber(0, adjectivesArr.length - 1);
     let num2 = randomNumber(0, adjectivesArr.length - 1);
     let num3 = randomNumber(0, nounsArr.length - 1);
-    setMainState((prev) => [...prev, `${num1} ${num2} ${num3}`]);
+    setMainState((prev) => [
+      ...prev,
+      `${adjectivesArr[num1]} ${adjectivesArr[num2]} ${nounsArr[num3]}`,
+    ]);
   };
 
   const onClearMainState = () => {
@@ -25,16 +28,7 @@ const App = () => {
     <div className="wrapper">
       <div className="list">
         {mainState &&
-          mainState.map((p, index) => (
-            <Phrase
-              mainState={mainState}
-              key={index}
-              index={index}
-              phrase={p}
-              adjectivesArr={adjectivesArr}
-              nounsArr={nounsArr}
-            />
-          ))}
+          mainState.map((p, index) => <Phrase key={index} phrase={p} />)}
       </div>
       {!mainState.length && <EmptyBlock />}
       <button onClick={genRandomNum} className="btn btn_generate">
