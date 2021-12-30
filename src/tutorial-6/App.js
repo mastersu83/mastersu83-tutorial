@@ -8,21 +8,6 @@ export default function App() {
   const postId = pathname.split("/");
   const newPostId = postId[postId.length - 1];
 
-  const post = [
-    {
-      id: 1,
-      title: "Пост №1",
-    },
-    {
-      id: 2,
-      title: "Пост №2",
-    },
-    {
-      id: 3,
-      title: "Пост №3",
-    },
-  ];
-
   return (
     <div className="App">
       <header>
@@ -48,15 +33,12 @@ export default function App() {
         </Nav>
       </header>
       <Row>
-        {pathname === "/" &&
-          post.map((i, index) => (
-            <CardItem key={i.id} title={i.title} id={i.id} index={index} />
-          ))}
+        {pathname === "/" && <CardItem title={newPostId} id={newPostId} />}
       </Row>
       <Row>
         {pathname === `/post/${newPostId}` && (
           <Col md={4}>
-            <h3>{post[newPostId - 1].title}</h3>
+            <h3>{newPostId}</h3>
             <Card>
               <Card.Img
                 variant="top"
