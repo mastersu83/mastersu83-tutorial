@@ -5,18 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 40px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.rows {
+  display: flex;
+  justify-content: center;
 }
 
-.rotate {
-  transform: rotate(45deg);
-  font-size: 30px;
-  font-weight: bold;
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
+.MuiTextField-root,
+.MuiButton-root {
+  margin: 0 15px 16px !important;
 }
