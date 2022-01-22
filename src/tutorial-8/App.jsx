@@ -5,9 +5,7 @@ const App = () => {
 	const [isLoaded, setisLoaded] = React.useState(true);
 
 	const getUsers = async () => {
-		let data = await fetch(
-			'https://61eb42297ec58900177cdbf3.mockapi.io/usersn'
-		);
+		let data = await fetch('https://61eb42297ec58900177cdbf3.mockapi.io/users');
 		if (data.ok) {
 			data = await data.json();
 			setisLoaded(true);
