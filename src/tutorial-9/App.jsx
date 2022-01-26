@@ -1,35 +1,35 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import React from 'react';
 import axios from 'axios';
 const App = () => {
 	const [user, setUser] = React.useState([]);
 	const [input, setInput] = React.useState('');
+	const [userLogin, setUserLogin] = React.useState('');
 	const [state, setState] = React.useState({
 		isLoaded: false,
 		isUser: false,
 		disable: false,
 		userNotFind: false,
-		userLogin: [],
-		login: '',
 	});
 
 	const hendleInputChange = (e) => {
 		setInput(e.target.value);
 	};
 
-	const getUserOnClick = (e) => {
-		// e.preventDefault();
-		setState({ ...state, login: input });
-		getUser();
+	const getUserOnClick = () => {
+		setUserLogin(input);
 	};
 
 	const getUser = async () => {
-		if (!state.login) {
-			return;
-		}
 		try {
+			setState({
+				...state,
+				isLoaded: true,
+				disable: true,
+				isUser: false,
+				userNotFind: false,
+			});
 			await axios
-				.get(`https://api.github.com/users/${state.login}`)
+				.get(`https://api.github.com/users/${userLogin}`)
 				.then((res) => setUser(res.data));
 			setState({
 				...state,
@@ -37,10 +37,9 @@ const App = () => {
 				disable: false,
 				isUser: true,
 				userNotFind: false,
-				login: input,
 			});
 		} catch (e) {
-			setState({ ...state, userNotFind: true, isUser: false });
+			setState({ ...state, userNotFind: true, isUser: false, disable: false });
 			console.log(e.message);
 		}
 	};
@@ -48,16 +47,18 @@ const App = () => {
 	React.useEffect(() => {
 		let login = window.location.href.split('=');
 		if (login[1]) {
-			setState({ ...state, login: login[1] });
+			setUserLogin(login[1]);
 			setInput(login[1]);
 		}
 	}, []);
 
 	React.useEffect(() => {
-		let pathName = `${window.location.pathname}?login=${state.login}`;
-		window.history.pushState(null, document.title, pathName);
-		getUser();
-	}, [state.login]);
+		if (userLogin) {
+			let pathName = `${window.location.pathname}?login=${userLogin}`;
+			window.history.pushState(null, document.title, pathName);
+			getUser();
+		}
+	}, [userLogin]);
 
 	return (
 		<div id="app">
