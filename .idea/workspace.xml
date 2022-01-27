@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a06718df-fe8e-4854-a055-b55ac407aed6" name="Changes" comment="сделал урок tutorial-7">
+      <change beforePath="$PROJECT_DIR$/src/tutorial-7/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/tutorial-7/App.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="tutorial-6" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="22h97OO1vdJUIq43uQkUSZi76mX" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/tutorial-7" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="C:/Program Files/nodejs/node" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Master_su\AppData\Roaming\npm\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\layout\react\projects\mastersu83-tutorial\src\tutorial-7" />
+      <recent name="E:\layout\react\projects\mastersu83-tutorial\src\tutorial-5" />
+      <recent name="E:\layout\react\projects\mastersu83-tutorial\src\tutorial-randomListPhrase\components" />
+      <recent name="E:\layout\react\projects\mastersu83-tutorial\src" />
+      <recent name="E:\layout\react\projects\mastersu83-tutorial\src\tutorial-1\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\layout\react\projects\mastersu83-tutorial\src\tutorial-3" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a06718df-fe8e-4854-a055-b55ac407aed6" name="Changes" comment="" />
+      <created>1640278786973</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640278786973</updated>
+      <workItem from="1640278790170" duration="12715000" />
+      <workItem from="1640361245898" duration="35445000" />
+      <workItem from="1640642305674" duration="24404000" />
+      <workItem from="1640815348344" duration="3219000" />
+      <workItem from="1640823528339" duration="17051000" />
+      <workItem from="1641152977253" duration="610000" />
+      <workItem from="1641164331707" duration="1000" />
+      <workItem from="1642175086510" duration="5857000" />
+      <workItem from="1642207485034" duration="751000" />
+      <workItem from="1642252959434" duration="389000" />
+      <workItem from="1642253396403" duration="56000" />
+      <workItem from="1642253493460" duration="141000" />
+      <workItem from="1642254904680" duration="630000" />
+      <workItem from="1642291107342" duration="91000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initialize project">
+      <created>1640278915668</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640278915668</updated>
+    </task>
+    <task id="LOCAL-00002" summary="сделал урок № 1">
+      <created>1640282165574</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640282165574</updated>
+    </task>
+    <task id="LOCAL-00003" summary="сделал урок № 2">
+      <created>1640342552900</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1640342552900</updated>
+    </task>
+    <task id="LOCAL-00004" summary="сделал урок № 2, занулил email и password, после вывода в консоль">
+      <created>1640343036845</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640343036845</updated>
+    </task>
+    <task id="LOCAL-00005" summary="сделал урок № 2, исправил мелкие недочеты. Из-за невнимательности пропустил">
+      <created>1640346083199</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1640346083199</updated>
+    </task>
+    <task id="LOCAL-00006" summary="сделал урок № 2, добавид trim() чтобы пробелы не считались символами">
+      <created>1640354066270</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640354066270</updated>
+    </task>
+    <task id="LOCAL-00007" summary="сделал урок № 2, добавил trim(). Теперь туда куда надо">
+      <created>1640354384050</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1640354384050</updated>
+    </task>
+    <task id="LOCAL-00008" summary="сделал урок № 3">
+      <created>1640371027045</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1640371027045</updated>
+    </task>
+    <task id="LOCAL-00009" summary="сделал урок № 4 TaskList">
+      <created>1640400417142</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1640400417142</updated>
+    </task>
+    <task id="LOCAL-00010" summary="сделал урок № 4 TaskList сделал правки по замечаниям">
+      <created>1640425468568</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1640425468568</updated>
+    </task>
+    <task id="LOCAL-00011" summary="сделал урок № 5 Random Phrase">
+      <created>1640433577928</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1640433577928</updated>
+    </task>
+    <task id="LOCAL-00012" summary="сделал урок № 5 Random Phrase, исправил замеченные ошибки">
+      <created>1640500824946</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1640500824946</updated>
+    </task>
+    <task id="LOCAL-00013" summary="сделал урок № 5 Random Phrase, исправил замеченные ошибки">
+      <created>1640520558487</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1640520558487</updated>
+    </task>
+    <task id="LOCAL-00014" summary="сделал урок № 5 Random Phrase, исправил замеченные ошибки">
+      <created>1640520927561</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1640520927561</updated>
+    </task>
+    <task id="LOCAL-00015" summary="сделал урок № 5 Random Phrase, удалил не нужные console.log">
+      <created>1640521487010</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1640521487010</updated>
+    </task>
+    <task id="LOCAL-00016" summary="сделал урок № 5 Random Phrase, переделал по замечаниям">
+      <created>1640617336640</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1640617336640</updated>
+    </task>
+    <task id="LOCAL-00017" summary="сделал урок № 5 Random Phrase, переделал по замечаниям ещё раз">
+      <created>1640637308310</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1640637308310</updated>
+    </task>
+    <task id="LOCAL-00018" summary="сделал урок № 5 Random Phrase, прокинул готовую фразу в props">
+      <created>1640683967147</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1640683967147</updated>
+    </task>
+    <task id="LOCAL-00019" summary="сделал урок № 6 tutorial-5">
+      <created>1640768747670</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1640768747670</updated>
+    </task>
+    <task id="LOCAL-00020" summary="сделал урок tutorial-6">
+      <created>1640838356191</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1640838356191</updated>
+    </task>
+    <task id="LOCAL-00021" summary="сделал урок tutorial-6 переделал по усдовиям задания">
+      <created>1640846591747</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1640846591748</updated>
+    </task>
+    <task id="LOCAL-00022" summary="сделал урок tutorial-7">
+      <created>1642182674356</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1642182674356</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="tutorial-7" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initialize project" />
+    <MESSAGE value="сделал урок № 1" />
+    <MESSAGE value="сделал урок № 2" />
+    <MESSAGE value="сделал урок № 2, занулил email и password, после вывода в консоль" />
+    <MESSAGE value="сделал урок № 2, исправил мелкие недочеты. Из-за невнимательности пропустил" />
+    <MESSAGE value="сделал урок № 2, добавид trim() чтобы пробелы не считались символами" />
+    <MESSAGE value="сделал урок № 2, добавил trim(). Теперь туда куда надо" />
+    <MESSAGE value="сделал урок № 3" />
+    <MESSAGE value="сделал урок № 4 TaskList" />
+    <MESSAGE value="сделал урок № 4 TaskList сделал правки по замечаниям" />
+    <MESSAGE value="сделал урок № 5 Random Phrase" />
+    <MESSAGE value="сделал урок № 5 Random Phrase, исправил замеченные ошибки" />
+    <MESSAGE value="сделал урок № 5 Random Phrase, удалил не нужные console.log" />
+    <MESSAGE value="сделал урок № 5 Random Phrase, переделал по замечаниям" />
+    <MESSAGE value="сделал урок № 5 Random Phrase, переделал по замечаниям ещё раз" />
+    <MESSAGE value="сделал урок № 5 Random Phrase, прокинул готовую фразу в props" />
+    <MESSAGE value="сделал урок № 6 tutorial-5" />
+    <MESSAGE value="сделал урок tutorial-6" />
+    <MESSAGE value="сделал урок tutorial-6 переделал по усдовиям задания" />
+    <MESSAGE value="сделал урок tutorial-7" />
+    <option name="LAST_COMMIT_MESSAGE" value="сделал урок tutorial-7" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
